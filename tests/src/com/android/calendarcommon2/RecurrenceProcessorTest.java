@@ -22,7 +22,6 @@ import android.test.suitebuilder.annotation.LargeTest;
 import android.test.suitebuilder.annotation.MediumTest;
 import android.test.suitebuilder.annotation.SmallTest;
 import android.text.TextUtils;
-import android.text.format.Time;
 import android.util.Log;
 import android.util.TimeFormatException;
 import junit.framework.TestCase;

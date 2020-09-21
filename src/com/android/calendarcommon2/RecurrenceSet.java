@@ -20,7 +20,6 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.provider.CalendarContract;
 import android.text.TextUtils;
-import android.text.format.Time;
 import android.util.Log;
 import android.util.TimeFormatException;
 

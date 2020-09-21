@@ -17,7 +17,6 @@
 
 package com.android.calendarcommon2;
 
-import android.text.format.Time;
 import android.util.Log;
 
 import java.util.TreeSet;

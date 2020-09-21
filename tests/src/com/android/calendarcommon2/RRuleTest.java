@@ -24,7 +24,6 @@ import com.android.calendarcommon2.RecurrenceSet;
 import android.os.Debug;
 import android.test.suitebuilder.annotation.MediumTest;
 import android.test.suitebuilder.annotation.Suppress;
-import android.text.format.Time;
 import junit.framework.TestCase;
 
 /**
