@@ -114,8 +114,7 @@ public class RRuleTest extends TestCase {
         RecurrenceProcessor rp = new RecurrenceProcessor();
         RecurrenceSet recur = new RecurrenceSet(rrule, rdate, exrule, exdate);
 
-        long[] out = rp.expand(dtstart, recur, rangeStart.toMillis(false /* use isDst */),
-                rangeEnd.toMillis(false /* use isDst */));
+        long[] out = rp.expand(dtstart, recur, rangeStart.toMillis(), rangeEnd.toMillis());
 
         if (METHOD_TRACE) {
             Debug.stopMethodTracing();
