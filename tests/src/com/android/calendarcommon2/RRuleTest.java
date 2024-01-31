@@ -19,11 +19,12 @@
 
 package com.android.calendarcommon2;
 
-import com.android.calendarcommon2.RecurrenceSet;
 
 import android.os.Debug;
-import android.test.suitebuilder.annotation.MediumTest;
-import android.test.suitebuilder.annotation.Suppress;
+
+import androidx.test.filters.MediumTest;
+import androidx.test.filters.Suppress;
+
 import junit.framework.TestCase;
 
 /**

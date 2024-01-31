@@ -17,9 +17,9 @@
 
 package com.android.calendarcommon2;
 
-import junit.framework.TestCase;
+import androidx.test.filters.SmallTest;
 
-import android.test.suitebuilder.annotation.SmallTest;
+import junit.framework.TestCase;
 
 public class DurationTest extends TestCase {
 
