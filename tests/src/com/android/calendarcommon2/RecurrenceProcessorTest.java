@@ -18,11 +18,12 @@
 package com.android.calendarcommon2;
 
 import android.os.Debug;
-import android.test.suitebuilder.annotation.LargeTest;
-import android.test.suitebuilder.annotation.MediumTest;
-import android.test.suitebuilder.annotation.SmallTest;
-import android.text.TextUtils;
 import android.util.Log;
+
+import androidx.test.filters.LargeTest;
+import androidx.test.filters.MediumTest;
+import androidx.test.filters.SmallTest;
+
 import junit.framework.TestCase;
 
 import java.util.TreeSet;
