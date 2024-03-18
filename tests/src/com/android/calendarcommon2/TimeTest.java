@@ -15,9 +15,10 @@
  */
 package com.android.calendarcommon2;
 
-import android.test.suitebuilder.annotation.MediumTest;
-import android.test.suitebuilder.annotation.SmallTest;
 import android.util.TimeFormatException;
+
+import androidx.test.filters.MediumTest;
+import androidx.test.filters.SmallTest;
 
 import junit.framework.TestCase;
 

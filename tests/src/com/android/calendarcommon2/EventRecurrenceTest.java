@@ -16,10 +16,10 @@
 
 package com.android.calendarcommon2;
 
-import com.android.calendarcommon2.EventRecurrence.InvalidFormatException;
+import androidx.test.filters.SmallTest;
+import androidx.test.filters.Suppress;
 
-import android.test.suitebuilder.annotation.SmallTest;
-import android.test.suitebuilder.annotation.Suppress;
+import com.android.calendarcommon2.EventRecurrence.InvalidFormatException;
 
 import junit.framework.TestCase;
 
